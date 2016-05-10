@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+<![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+<![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		
+		<title>Rainbow HTML5 Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="templatemo">
+        <meta charset="UTF-8">
+		<!-- 
+    	Rainbow Template
+		http://www.templatemo.com/preview/templatemo_425_rainbow
+    	-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+        <!-- JavaScripts -->
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/modernizr.min.js"></script>
+		<script type="text/javascript">
+		$( document ).ready(function() {
+  			$('#insights').hide();
+
+			$( "#submit" ).click(function() {
+				$('#insights').hide();
+  				$("body").addClass("loading");  
+				
+				setTimeout(function(){
+  					$("body").removeClass("loading");  
+					$('#insights').show();  
+				}, 2000);  
+			});
+		        
+			
+		});
+	</script>
+	<style>
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0,0,0, .8 ) 
+                url('http://i.imgur.com/jtkTPvb.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+</style>
+	
+	</head>
+	<body>
+     <header class="site-header" id="top">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                          <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="logo-wrapper">
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" alt="rainbow template" title="rainbow template">
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#top" class="link-home">Home</a></li>
+                            <li><a href="#about" class="link-about">About</a></li>
+                            
+                            <li><a href="#portfolio" class="link-contact">Questions</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+    </header>
+
+    
+    <div id="first-section">
+        <div class="container">
+        
+            <div class="row">
+                <div class="image">
+                    <img src="images/templatemo-image.jpg" alt="templatemo image">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="services">
+                
+                    <div class="first-icon">
+                        <div class="col-md-3 col-sm-3 col-xs-3 hover-effect">
+                            <h4>Biology</h4>
+                            <i class="fa fa-tachometer"></i>
+                        </div>
+                    </div>
+                    <div class="second-icon">
+                        <div class="col-md-3 col-sm-3 col-xs-3 hover-effect">
+                            <h4>Behaviour</h4>
+                            <i class="fa fa-umbrella"></i>
+                        </div>
+                    </div>
+                    <div class="third-icon">
+                        <div class="col-md-3 col-sm-3 col-xs-3 hover-effect">
+                            <h4>Environment</h4>
+                            <i class="fa fa-university"></i>
+                        </div>
+                    </div>
+                    <div class="fourth-icon">
+                        <div class="col-md-3 col-sm-3 col-xs-3 hover-effect">
+                            <h4>Big Data</h4>
+                            <i class="fa fa-sliders"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2>WHAT IS KAVLI HUMAN PROJECT?</h2>
+                            <span>Let us tell you about the backgrounds</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="description">
+                            
+                            <p>The Kavli HUMAN Project (KHP) will use Big Data approaches to aggregate and analyze a variety of measurements gathered over 20 years on 10,000 individuals in roughly 2,500 households in New York City to determine how human health and behavior co-evolve over the lifecycle. The innovative design and groundbreaking scale of the project enable it to capture the dynamic interplay of biology, behavior, and the environment and how these forces impact health and disease.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="video">
+                            <iframe width="780" height="470" src="https://www.youtube.com/v/-f3NpFyO5iY" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="portfolio-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2>Brace yourself for shocking revealations</h2>
+                            <span>What have we done in the past</span>
+                        </div>
+				<div>
+					<table style="color: white;text-align: left;">
+						<tr>
+
+							<td style="padding-left: 50px;">
+							  1. How many steps do you walk every day on an average?<br>
+<input type="radio" name="gender" value="male"> less than 5000<br>
+  <input type="radio" name="gender" value="female"> 5000-10,000<br>
+  <input type="radio" name="gender" value="other"> more than 10,000<br><br>
+							</td>
+<td rowspan = 6; style="padding-left: 50px;">
+	<div id="insights">
+	<h2>Insights of Big Data Analysis</h2>
+	<ul>
+		<li> 85% probability that <b>Maria</b> will live for 100 years</li>
+		<li> <b>Atul</b> is most likely to become a chainsmoker in 5 years</li>
+		<li> High probability of <b>Ravi</b> leaving NYC in next 2 years due to increasing pollution levels in the city</li>
+		<li> 80% chance of <b>Purva</b> getting her entire family of 25 people to New York by the year 2020</li>
+		<li> <b>Omkar</b> most likely to become obese in a year for all the chips and pizza he eats.</li>
+	</ul>
+	</div>
+</td>
+						</tr>
+						<tr>
+							<td style="padding-left: 50px;">
+							  2. Your love for pizza<br>
+<input type="radio" name="gender" value="male"> Only when free<br>
+  <input type="radio" name="gender" value="female"> Infatuation<br>
+  <input type="radio" name="gender" value="other"> Commitment<br><br>
+							</td>
+						</tr>
+<tr>
+							<td style="padding-left: 50px;">
+							  3. How many bags of chips do you eat everyweek? <br>
+<input type="radio" name="gender" value="male"> 0 <br>
+  <input type="radio" name="gender" value="female"> 1 - 5<br>
+  <input type="radio" name="gender" value="other"> more than 5<br><br>
+							</td>
+						</tr>
+<tr>
+							<td style="padding-left: 50px;">
+							  4. Do you smoke?<br>
+<input type="radio" name="gender" value="male"> No <br>
+  <input type="radio" name="gender" value="female"> Occasionally<br>
+  <input type="radio" name="gender" value="other"> Heavily <br><br>
+							</td>
+						</tr>
+
+<tr>
+							<td style="padding-left: 50px;">
+							  5. Do you drink? <br>
+<input type="radio" name="gender" value="male"> No <br>
+  <input type="radio" name="gender" value="female"> Occasionally<br>
+  <input type="radio" name="gender" value="other"> Heavily <br><br>
+							</td>
+						</tr>
+<tr>
+							<td style="padding-left: 50px;padding-bottom: 50px;">
+							  
+<button id="submit"; type="button"; style="color:black;">Submit</button><br>
+ 
+							</td>
+						</tr>
+					</table>
+				</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-portfolio" >
+                            <div class="row portfolio-holder">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2016 <a href="#">The Bull Market Bunch</a>
+                                <!-- | <em>Design: <a href="http://www.templatemo.com">templatemo</a></em> -->
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="back-to-top">
+                                <a href="#top"><i class="fa fa-angle-up"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   <div class="modal"><!-- Place at bottom of page --></div>
+    
+		<!-- Javascripts -->
+        		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/templatemo_script.js"></script>
+	</body>
+</html>
